@@ -1,0 +1,28 @@
+{
+  "name": "jafira-laundry-api-tests",
+  "version": "1.0.0",
+  "description": "Small laundry order API with automated API tests (Supertest + Jest + TypeScript)",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.6.6",
+    "@types/supertest": "^7.2.1",
+    "jest": "^30.5.2",
+    "supertest": "^7.3.1",
+    "ts-jest": "^29.4.15",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
